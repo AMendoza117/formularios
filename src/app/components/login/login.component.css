@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    background-image: url('maxresdefault.jpg');
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin: 0;
+ }
+#login1{
+    top: 1000px;
+    width: 250px;
+    height: 370px;
+    backdrop-filter: blur(20px);
+    font: italic 14px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+#login1 input{
+    margin-top: 5px;
+    padding: 10px;
+    border: solid white;
+    border-radius: 10px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+.form-control{
+    top: -50px;
+}
+h3{
+    color: white;
+    font-family:"Arial", Verdana, sans-serif;
+    font-size: 30px;
+}
+div a{
+    margin: 20px;
+    border-radius: 3px;
+    background-color: white;
+    font: bold;
+    color: black;
+    padding: 5px;
+}
